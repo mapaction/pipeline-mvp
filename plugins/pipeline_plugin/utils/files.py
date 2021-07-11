@@ -10,7 +10,6 @@ import geopandas as gpd
 from pipeline_plugin.pipeline_config.config_parser import config
 from pipeline_plugin.utils.google_cloud_storage import download_file, upload_file
 
-
 CACHE_INVALID_AFTER_DAYS = 7
 
 

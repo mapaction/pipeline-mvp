@@ -5,9 +5,9 @@ import fiona
 import geopandas as gpd
 from jsonschema import validate
 
+
 from pipeline_plugin.utils.files import load_file, save_shapefiles
 from pipeline_plugin.utils.yaml_api import parse_yaml
-
 
 GADM_FILENAME = "gadm36_{ISO3}.gpkg"
 
